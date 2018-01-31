@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D880AFC411E7E4BF542471 /* libPods-ZKLBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2748D593C94514BBF9A0C59 /* libPods-ZKLBannerView.a */; };
+		A27F6390202051D800159CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F638F202051D800159CE4 /* AppDelegate.m */; };
+		A27F6398202051D800159CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27F6397202051D800159CE4 /* Assets.xcassets */; };
+		A27F639B202051D800159CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27F6399202051D800159CE4 /* LaunchScreen.storyboard */; };
+		A27F639E202051D800159CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F639D202051D800159CE4 /* main.m */; };
+		A27F63A62020782F00159CE4 /* ZKLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F63A52020782F00159CE4 /* ZKLBannerView.m */; };
+		A27F63A92021509D00159CE4 /* ZKLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27F63A82021509D00159CE4 /* ZKLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C685C848B0FA9A8B470B6BA /* Pods-ZKLBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKLBannerView/Pods-ZKLBannerView.debug.xcconfig"; sourceTree = "<group>"; };
+		A27F638B202051D800159CE4 /* ZKLBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKLBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27F638E202051D800159CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A27F638F202051D800159CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A27F6397202051D800159CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27F639A202051D800159CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27F639C202051D800159CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27F639D202051D800159CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A27F63A42020782F00159CE4 /* ZKLBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKLBannerView.h; sourceTree = "<group>"; };
+		A27F63A52020782F00159CE4 /* ZKLBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLBannerView.m; sourceTree = "<group>"; };
+		A27F63A72021509D00159CE4 /* ZKLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKLViewController.h; sourceTree = "<group>"; };
+		A27F63A82021509D00159CE4 /* ZKLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLViewController.m; sourceTree = "<group>"; };
+		A409471B68E7BB07FC8DC718 /* Pods-ZKLBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKLBannerView/Pods-ZKLBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		C2748D593C94514BBF9A0C59 /* libPods-ZKLBannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZKLBannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27F6388202051D800159CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D880AFC411E7E4BF542471 /* libPods-ZKLBannerView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05583B0765E7CE875645B14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2748D593C94514BBF9A0C59 /* libPods-ZKLBannerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C401ADFAA8F3EA95765518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C685C848B0FA9A8B470B6BA /* Pods-ZKLBannerView.debug.xcconfig */,
+				A409471B68E7BB07FC8DC718 /* Pods-ZKLBannerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A27F6382202051D800159CE4 = {
+			isa = PBXGroup;
+			children = (
+				A27F638D202051D800159CE4 /* ZKLBannerView */,
+				A27F638C202051D800159CE4 /* Products */,
+				85C401ADFAA8F3EA95765518 /* Pods */,
+				05583B0765E7CE875645B14E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A27F638C202051D800159CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27F638B202051D800159CE4 /* ZKLBannerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27F638D202051D800159CE4 /* ZKLBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				A27F63B22021BA2C00159CE4 /* AppDelegate */,
+				A27F63B32021BA4400159CE4 /* Banner */,
+				A27F63A72021509D00159CE4 /* ZKLViewController.h */,
+				A27F63A82021509D00159CE4 /* ZKLViewController.m */,
+				A27F6397202051D800159CE4 /* Assets.xcassets */,
+				A27F6399202051D800159CE4 /* LaunchScreen.storyboard */,
+				A27F639C202051D800159CE4 /* Info.plist */,
+				A27F639D202051D800159CE4 /* main.m */,
+			);
+			path = ZKLBannerView;
+			sourceTree = "<group>";
+		};
+		A27F63B22021BA2C00159CE4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A27F638E202051D800159CE4 /* AppDelegate.h */,
+				A27F638F202051D800159CE4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A27F63B32021BA4400159CE4 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				A27F63A42020782F00159CE4 /* ZKLBannerView.h */,
+				A27F63A52020782F00159CE4 /* ZKLBannerView.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27F638A202051D800159CE4 /* ZKLBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27F63A1202051D800159CE4 /* Build configuration list for PBXNativeTarget "ZKLBannerView" */;
+			buildPhases = (
+				3070CD63CB8E2D32DA79D1BA /* [CP] Check Pods Manifest.lock */,
+				A27F6387202051D800159CE4 /* Sources */,
+				A27F6388202051D800159CE4 /* Frameworks */,
+				A27F6389202051D800159CE4 /* Resources */,
+				04E565582DCE6D72B37A1EB3 /* [CP] Embed Pods Frameworks */,
+				65E1C1ED87B0B308A075C29A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKLBannerView;
+			productName = ZKLBannerView;
+			productReference = A27F638B202051D800159CE4 /* ZKLBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27F6383202051D800159CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zkl;
+				TargetAttributes = {
+					A27F638A202051D800159CE4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A27F6386202051D800159CE4 /* Build configuration list for PBXProject "ZKLBannerView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27F6382202051D800159CE4;
+			productRefGroup = A27F638C202051D800159CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27F638A202051D800159CE4 /* ZKLBannerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27F6389202051D800159CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27F639B202051D800159CE4 /* LaunchScreen.storyboard in Resources */,
+				A27F6398202051D800159CE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E565582DCE6D72B37A1EB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKLBannerView/Pods-ZKLBannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3070CD63CB8E2D32DA79D1BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKLBannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E1C1ED87B0B308A075C29A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKLBannerView/Pods-ZKLBannerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27F6387202051D800159CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27F63A62020782F00159CE4 /* ZKLBannerView.m in Sources */,
+				A27F639E202051D800159CE4 /* main.m in Sources */,
+				A27F63A92021509D00159CE4 /* ZKLViewController.m in Sources */,
+				A27F6390202051D800159CE4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A27F6399202051D800159CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27F639A202051D800159CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27F639F202051D800159CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A27F63A0202051D800159CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27F63A2202051D800159CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C685C848B0FA9A8B470B6BA /* Pods-ZKLBannerView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FC49DARN7;
+				INFOPLIST_FILE = ZKLBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkl.ZKLBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27F63A3202051D800159CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A409471B68E7BB07FC8DC718 /* Pods-ZKLBannerView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FC49DARN7;
+				INFOPLIST_FILE = ZKLBannerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkl.ZKLBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27F6386202051D800159CE4 /* Build configuration list for PBXProject "ZKLBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27F639F202051D800159CE4 /* Debug */,
+				A27F63A0202051D800159CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27F63A1202051D800159CE4 /* Build configuration list for PBXNativeTarget "ZKLBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27F63A2202051D800159CE4 /* Debug */,
+				A27F63A3202051D800159CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27F6383202051D800159CE4 /* Project object */;
+}
